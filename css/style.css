@@ -30,6 +30,44 @@ h4 {
   letter-spacing: 2px;
 }
 
+h5 {
+  padding-top: 50px;
+  text-align: center;
+  font-size:28px;
+  font-family: "GilroyHeavy";
+  -webkit-text-fill-color: #FFFFFF;
+  -webkit-text-stroke-color: #ffcb4a;
+  -webkit-text-stroke-width: .2px;
+  letter-spacing: 20px;
+}
+
+h6 {
+  padding-top: 25px;
+  text-align: center;
+  line-height: 40px;
+  font-size:20px;
+  font-family: "Gilroy";
+  letter-spacing: 4px;
+}
+
+.title3 h6{
+  padding-bottom: 75px;
+  text-align: center;
+  line-height: 40px;
+  font-size:20px;
+  font-family: "Gilroy";
+  letter-spacing: 4px;
+
+}
+
+
+
+hr {
+  width: 5%;
+}
+
+
+
 
 /* fonts */
 
@@ -41,6 +79,11 @@ src: url("../fonts/Gilroy_ExtraBold.ttf");
 @font-face {
 font-family: "Gilroy 2";
 src: url("../fonts/Gilroy_SemiBold.ttf");
+}
+
+@font-face {
+font-family: "GilroyHeavy";
+src: url("../fonts/Gilroy_Heavy.ttf");
 }
 
 /* grid */
